@@ -1,0 +1,19 @@
+/* .background{
+  background-image: url("../images/mainBackground.jpeg");
+  background-repeat: no-repeat;
+} */
+
+.top-container{
+  /* background-image: url("../images/mainBackground"); */
+  /* image-resolution: responsive; */
+  width: relative;
+  height: relative;
+
+
+}
+
+.top-container img{
+  filter: brightness(50%);
+  height: 100%;
+  width: 100%;
+}
