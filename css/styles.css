@@ -6,9 +6,27 @@
 .body{
   font-family: serif;
 }
+
 .top-container {
-  /* font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif; */
+  position: relative;
+  text-align: center;
+  color: white;
+  /* height: auto;
+  width:auto; */
+}
+
+img{
+  filter: brightness(40%);
+  height: 100%;
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
 }
 
 .navbar-brand,
@@ -46,23 +64,12 @@
   right: 20px;
 } */
 \ce
-.top-container {
+/* .top-container {
   height: auto;
   width: auto;
-}
-
-.top-container {
+} */
 
 
-  height: auto;
-  width:auto;
-
-}
-img{
-  filter: brightness(40%);
-  height: 100%;
-  width: 100%;
-}
 
 /* img{
   height: relative;
