@@ -3,34 +3,107 @@
   background-repeat: no-repeat;
 } */
 
+.body{
+  font-family: serif;
+}
+.top-container {
+  /* font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif; */
+}
+
 .navbar-brand,
-.navbar-brand .navbar-text{
-  color:white;
+.navbar-brand .navbar-text {
+  color: white;
 }
 
-.top-container{
-  /* background-image: url("../images/mainBackground"); */
-  /* image-resolution: responsive; */
-  width: relative;
-  height: relative;
+.navbar {
+  --bs-navbar-padding-y: 0;
 }
 
-.middle-container{
-  filter: brightness(30%);
-  background-color: #000066;
-  width: fluid;
-  height: fluid;
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 1rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: #f8f9fa;
+  --bs-nav-link-hover-color: #f8f9fa;
+  --bs-nav-link-disabled-color: #6c757d;
+  padding-right: 30px;
+  padding-left: 20px;
+  font-size: 16px;
 }
 
-.bottom-container{
-  background-color: #000099;
-
-  width: 100%;
-  height: 100%;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: #dc3545;
 }
 
-.top-container img{
+.navbar .navbar-brand {
+  margin-left: 2rem;
+  font-size: 25px;
+}
+
+/* .fixed-top {
+  right: 20px;
+} */
+\ce
+.top-container {
+  height: auto;
+  width: auto;
+}
+
+.top-container {
+
+
+  height: auto;
+  width:auto;
+
+}
+img{
   filter: brightness(40%);
   height: 100%;
   width: 100%;
 }
+
+/* img{
+  height: relative;
+  width: relative;
+} */
+/*
+.middle-container {
+  background-color: #13133a;
+  width: auto;
+  height: 400px;
+  padding-top: 0;
+}
+
+
+.middle-container {
+
+    height: 0px;
+    padding-left: 500px;
+    padding-right: 50px;
+}
+
+
+.middle-container img{
+  float: left;
+  width: 170px;
+  height: 170px;
+  border-radius: 8px;
+  /* style="width:200px" */
+/* } */
+
+/* .middle-container::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.bottom-container {
+  background-color: #24273f;
+  width: auto;
+  height: 400px;
+} */
+
+/* .top-container
+
+i
