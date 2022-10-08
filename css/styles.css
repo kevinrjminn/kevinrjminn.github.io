@@ -1,14 +1,6 @@
-/* .background{
-  background-image: url("../images/mainBackground.jpeg");
-  background-repeat: no-repeat;
-} */
-
-.body{
+body{
   font-family: serif;
-  background-color: #13133a;
-  /* height: 100%; */
-  /* width: 100%; */
-  /* margin: 0; */
+  background-color: #24273f;
 }
 
 .top-container {
@@ -18,17 +10,15 @@
   text-align: center;
   color: white;
   background-repeat: no-repeat;
-  /* height: auto;
-  width:auto; */
-}
 
+}
 img{
   filter: brightness(40%);
   height: 100%;
   width: 100%;
 }
 
-.centered {
+.top-container .centered {
   filter: brightness(70%);
   position: absolute;
   top: 50%;
